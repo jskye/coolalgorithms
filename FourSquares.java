@@ -1,6 +1,13 @@
 package com.company;
 
 
+// Brute force algorithm for finding 4 or less squares of a positive integer.
+// certain integers will have three squares as per Legendres Three Square Theorem.
+// Any integer will have four or less as per Legranges Four Square Theorem.
+// Some integers have two squares.
+// see Rabin and Shallit algorithm for possibly faster computation.
+// http://math.stackexchange.com/questions/483101/rabin-and-shallit-algorithm
+
 public class FourSquares{
 
     public static void main(String[] args){
